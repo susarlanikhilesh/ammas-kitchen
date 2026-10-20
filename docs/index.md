@@ -11,6 +11,11 @@ Search for any dish or ingredient (try <em>gongura</em> or <em>పసుపు</
 
 <div class="grid cards" markdown>
 
+-   **[Basics · మసాలాలు & పోపు](recipes/basics/index.md)**
+
+    ---
+
+    Pani Puri Masala (పానీపూరి మసాలా)
 
 
 </div>

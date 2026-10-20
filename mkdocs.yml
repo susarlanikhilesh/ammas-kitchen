@@ -42,3 +42,6 @@ extra_css:
 
 nav:
   - Home: index.md
+  - "Basics":
+    - recipes/basics/index.md
+    - "Pani Puri Masala (పానీపూరి మసాలా)": recipes/basics/pani-puri-masala.md
