@@ -1,6 +1,6 @@
 """Generate docs/ recipe pages from ../moms-cookbook/recipes. Re-run after editing recipes."""
-import re, pathlib, shutil
-SRC = pathlib.Path("/workspace/moms-cookbook/recipes"); DOCS = pathlib.Path("docs")
+import re, os, pathlib, shutil
+SRC = pathlib.Path(os.environ.get("RECIPES_DIR") or pathlib.Path(__file__).resolve().parent / "recipes"); DOCS = pathlib.Path("docs")
 CATS = {"basics":("Basics","మసాలాలు & పోపు"),"dals-and-rasam":("Dals & Rasam","పప్పు & చారు"),
  "gravies-and-curries":("Gravies & Curries","కూరలు"),"pickles-and-chutneys":("Pickles & Chutneys","పచ్చళ్ళు"),
  "rice-and-tiffin":("Rice & Tiffin","టిఫిన్"),"snacks":("Snacks","పిండి వంటలు"),"unsorted":("Still to name","పేరు తెలియనివి")}
