@@ -1,0 +1,74 @@
+site_name: Amma's Kitchen
+site_description: Amma's recipes – అమ్మ వంటలు
+theme:
+  name: material
+  language: en
+  font:
+    text: Noto Sans
+    code: Noto Sans Mono
+  icon:
+    logo: material/pot-steam
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: deep orange
+      accent: amber
+      toggle: {icon: material/weather-night, name: Switch to dark mode}
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: deep orange
+      accent: amber
+      toggle: {icon: material/weather-sunny, name: Switch to light mode}
+  features:
+    - navigation.sections
+    - navigation.instant
+    - navigation.top
+    - navigation.indexes
+    - search.suggest
+    - search.highlight
+plugins:
+  - search:
+      separator: '[\s\-,:!=\[\]()"/]+'
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+extra_css:
+  - stylesheets/extra.css
+
+nav:
+  - Home: index.md
+  - "Basics":
+    - recipes/basics/index.md
+    - "Panipuri Masala (పానీపూరి మసాలా)": recipes/basics/panipuri-masala.md
+    - "All-Purpose Tempering (పోపు)": recipes/basics/popu-for-anything.md
+  - "Dals & Rasam":
+    - recipes/dals-and-rasam/index.md
+    - "Rasam (చారు)": recipes/dals-and-rasam/rasam.md
+    - "Tomato Masala Pappu (టమాటా పప్పు)": recipes/dals-and-rasam/tomato-masala-pappu.md
+  - "Gravies & Curries":
+    - recipes/gravies-and-curries/index.md
+    - "Aloo Gobi Mutter": recipes/gravies-and-curries/aloo-gobi-mutter.md
+    - "Aloo Masala (ఆలూ మసాలా)": recipes/gravies-and-curries/aloo-masala-coconut-milk.md
+    - "Cashew-Onion-Tomato Masala Base": recipes/gravies-and-curries/cashew-onion-tomato-masala-base.md
+  - "Pickles & Chutneys":
+    - recipes/pickles-and-chutneys/index.md
+    - "Gongura Pachadi (గోంగూర పచ్చడి)": recipes/pickles-and-chutneys/gongura-pachadi.md
+  - "Rice & Tiffin":
+    - recipes/rice-and-tiffin/index.md
+    - "Semiya with Potato (సేమియా)": recipes/rice-and-tiffin/semiya-upma-with-potato.md
+  - "Snacks":
+    - recipes/snacks/index.md
+    - "Burelu (బూరెలు)": recipes/snacks/burelu.md
+    - "Chegodilu (చేగోడీలు)": recipes/snacks/chegodilu.md
+    - "Chekkalu (చెక్కలు)": recipes/snacks/chekkalu.md
+    - "Chuda (చుడువా)": recipes/snacks/chuda.md
+    - "Namak Para": recipes/snacks/namak-para.md
+  - "Still to name":
+    - recipes/unsorted/index.md
+    - "Chana Dal Recipe (శనగపప్పు)": recipes/unsorted/chana-dal-recipe-unnamed.md
+    - "Tomato Recipe (టమాటా)": recipes/unsorted/tomato-recipe-unnamed.md

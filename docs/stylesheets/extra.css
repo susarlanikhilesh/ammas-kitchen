@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Telugu:wght@400;600&display=swap');
+:root { --md-text-font: "Noto Sans", "Noto Sans Telugu"; }
+.md-typeset h1 { font-weight: 600; }
+.md-typeset .lead { font-size: 1.1em; }
+.md-typeset .admonition.question { font-size: .7rem; margin: .4em 0; }
+.md-typeset audio { width: 100%; max-width: 480px; }
+.md-typeset img { border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,.2); }

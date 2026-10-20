@@ -1,0 +1,41 @@
+site_name: Amma's Kitchen
+site_description: Amma's recipes – అమ్మ వంటలు
+theme:
+  name: material
+  language: en
+  font:
+    text: Noto Sans
+    code: Noto Sans Mono
+  icon:
+    logo: material/pot-steam
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: deep orange
+      accent: amber
+      toggle: {icon: material/weather-night, name: Switch to dark mode}
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: deep orange
+      accent: amber
+      toggle: {icon: material/weather-sunny, name: Switch to light mode}
+  features:
+    - navigation.sections
+    - navigation.instant
+    - navigation.top
+    - navigation.indexes
+    - search.suggest
+    - search.highlight
+plugins:
+  - search:
+      separator: '[\s\-,:!=\[\]()"/]+'
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+extra_css:
+  - stylesheets/extra.css
