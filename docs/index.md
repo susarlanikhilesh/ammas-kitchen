@@ -45,7 +45,7 @@ Search for any dish or ingredient (try <em>gongura</em> or <em>పసుపు</
 
     ---
 
-    Burelu (బూరెలు), Chegodilu (చేగోడీలు), Chekkalu (చెక్కలు), Chuda (చుడువా), Namak Para
+    Burelu (బూరెలు), Chakali (చకలి), Chegodilu (చేగోడీలు), Chekkalu (చెక్కలు), Chuda (చుడువా), Namak Para
 
 -   **[Still to name · పేరు తెలియనివి](recipes/unsorted/index.md)**
 
