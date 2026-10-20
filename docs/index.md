@@ -33,7 +33,7 @@ Search for any dish or ingredient (try <em>gongura</em> or <em>పసుపు</
 
     ---
 
-    Gongura Pachadi (గోంగూర పచ్చడి)
+    Gongura Pachadi (గోంగూర పచ్చడి), Gongura Pickle (గోంగూర పచ్చడి)
 
 -   **[Rice & Tiffin · టిఫిన్](recipes/rice-and-tiffin/index.md)**
 
