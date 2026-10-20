@@ -45,3 +45,6 @@ nav:
   - "Basics":
     - recipes/basics/index.md
     - "Pani Puri Masala (పానీపూరి మసాలా)": recipes/basics/pani-puri-masala.md
+  - "Snacks":
+    - recipes/snacks/index.md
+    - "Pani Puri Masala (పానీపూరి మసాలా)": recipes/snacks/pani-puri-masala.md

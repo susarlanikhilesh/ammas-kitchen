@@ -17,6 +17,12 @@ Search for any dish or ingredient (try <em>gongura</em> or <em>పసుపు</
 
     Pani Puri Masala (పానీపూరి మసాలా)
 
+-   **[Snacks · పిండి వంటలు](recipes/snacks/index.md)**
+
+    ---
+
+    Pani Puri Masala (పానీపూరి మసాలా)
+
 
 </div>
 
